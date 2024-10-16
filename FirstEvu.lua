@@ -1,7 +1,7 @@
 local PlayerPermission = {"heoconchien", "moochoo555555", "Leongodmode55", "UnderPlatformer"} 
   
  local player = game.Players.LocalPlayer 
- if table.find(PlayerPermission, player.Name) then 
+ --if table.find(PlayerPermission, player.Name) then 
   
  local Gui = Instance.new("ScreenGui") 
  Gui.Parent = game.Players.LocalPlayer.PlayerGui 
@@ -119,4 +119,4 @@ local PlayerPermission = {"heoconchien", "moochoo555555", "Leongodmode55", "Unde
 part.Parent:FindFirstChildOfClass("Humanoid"):TakeDamage(part.Parent:FindFirstChildOfClass("Humanoid").Health)
  end 
  end) 
-end
+--end
