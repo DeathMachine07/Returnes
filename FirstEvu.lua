@@ -1,4 +1,4 @@
-local PlayerPermission = {"heoconchien", "moochoo555555", "Leongodmode55", "UnderPlatformer", "ROVRO1313"} 
+local PlayerPermission = {"heoconchien", "moochoo555555", "Leongodmode55", "UnderPlatformer"} 
   
  local player = game.Players.LocalPlayer 
  if table.find(PlayerPermission, player.Name) then 
